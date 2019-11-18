@@ -29,7 +29,7 @@ def baillie_psw(candidate):
     # calculating the correct value of D later on (and means we have a
     # composite number)
     # the slight ugliness is from having to deal with floating point numbers
-    if int(sqrt(candidate) + 0.5) ** 2 == candidate:
+    if sqrt(n) // 1 ** 2 == candidate:
         return False
 
     # Finally perform the Lucas primality test
